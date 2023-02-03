@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Inter:wght@100;400;700&family=Manrope:wght@200;400;800&family=Nunito+Sans:wght@300;600;800&family=Poppins:wght@500;700&family=Roboto:wght@100;300;400;500;700;900&family=Space+Grotesk:wght@300;500&display=swap');
+
+:root {
+    --dark: #1f2632;
+    --cyan: #cee3e9;
+    --blue: #4e5d73;
+    --green: #52ffa8;
+    --grayish: #323a49;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 28px;
+    background: var(--dark);
+    font-family: 'Manrope', 'Barlow Semi Condensed', 'Inter', 'Nunito Sans', 'Poppins', 'Roboto', 'Space Grotesk', sans-serif;
 }

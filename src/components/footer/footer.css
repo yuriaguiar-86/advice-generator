@@ -1,0 +1,14 @@
+.attribution {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: .3em;
+    position: fixed;
+    color: var(--cyan);
+    text-align: center;
+    background-color: var(--dark);
+}
+
+.attribution a {
+    color: var(--green);
+}
